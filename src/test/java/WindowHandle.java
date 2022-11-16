@@ -37,7 +37,7 @@ public class WindowHandle {
                 break;
             }
         }
-        Thread.sleep(3000);
+        Thread.sleep(3000);//wait 3 second
         driver.switchTo().window(parentwindow);
         Thread.sleep(3000);
         driver.findElement(By.id("name")).sendKeys("Jay Shree Ram");
